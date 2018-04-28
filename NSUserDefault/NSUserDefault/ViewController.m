@@ -56,7 +56,7 @@
     [userDefault setInteger:11 forKey:@"key_integer"];
     [userDefault setFloat:3.1415926 forKey:@"key_float"];
     [userDefault setDouble:2.00005555 forKey:@"key_double"];
-    [userDefault setURL:[NSURL URLWithString:@"https://www.360.cn"] forKey:@"key_url"];
+    [userDefault setURL:[NSURL URLWithString:@"https://www.baidu.cn"] forKey:@"key_url"];
     
     [userDefault synchronize];
 }
